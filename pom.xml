@@ -16,7 +16,7 @@
 		<cobertura.version>2.4</cobertura.version>
 		<!-- A workaround for a bug in PMD -->
 		<targetJdk>1.8</targetJdk>
-		<github.account>wakaleo</github.account>
+		<github.account>mhtnufst</github.account>
 	</properties>
 
     <scm>
@@ -50,9 +50,6 @@
 						<include>**/When*.java</include>
 						<include>**/*Test.java</include>
 					</includes>
-					<parallel>classes</parallel>
-					<threadCount>4</threadCount>
-					<perCoreThreadCount>true</perCoreThreadCount>
 				</configuration>
 			</plugin>
 			<plugin>
